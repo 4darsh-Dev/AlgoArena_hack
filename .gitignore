@@ -1,0 +1,12 @@
+*/node_modules/**
+dist/**
+coverage/**
+*.log
+*.env
+*.tsbuildinfo
+*.tgz
+*.zip
+frontend/dist/**
+frontend/node_modules/**
+backend/node_modules/**
+frontend/.env
