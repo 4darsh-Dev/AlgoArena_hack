@@ -1,4 +1,4 @@
-# 🎮 EduGami - AI-Powered Gamified Learning Platform
+# 🎮 SkillCraft - AI-Powered Gamified Learning Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Project Stage](https://img.shields.io/badge/Stage-Development-orange)
@@ -101,6 +101,38 @@ Recommends quiz topics by tracking skill mastery using Bayesian Knowledge Tracin
 | 🤖 **AI Interview Coach** | GPT-4 + Unity Avatars | 90% interview simulation accuracy |
 | 🧠 **Adaptive Learning** | RLlib + K-Means | 40% faster skill acquisition |
 | 💬 **24/7 Tutor Bot** | RASA + LangChain | 2s avg response time |
+
+## Local Setup
+
+### Frontend
+```bash
+cd frontend
+npm i 
+npm run dev
+```
+
+### Backend
+```bash
+cd backend
+npm i 
+node app.js
+```
+
+### ML Part
+1. Make virutal environment
+```bash
+python -m venv myenv
+```
+2. Install dependencies
+```bash
+pip instal -r requirements.txt
+```
+
+3. Run the scripts
+```bash
+python main.py
+```
+
 
 
 ## Career Simulators
