@@ -534,6 +534,3 @@ if __name__ == "__main__":
         'response_time_hours': 2
     }
     
-    # This would be used after properly training with scaled features
-    # success_probability = bid_model.predict_success_probability(sample_bid)
-    # print(f"\nPredicted bid success probability: {success_probability}%")
